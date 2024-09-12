@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace plugin\sign;
+namespace plugin\transfer;
 
 use plugin\transfer\command\Trans;
 use think\admin\Plugin;
