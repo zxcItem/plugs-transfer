@@ -1,0 +1,44 @@
+{
+    "type": "think-admin-plugin",
+    "name": "xiaochao/plugs-transfer",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "叶落无痕",
+            "email": "zxcaile@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1",
+        "xiaochao/plugs-payment": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "plugin\\transfer\\": "src"
+        }
+    },
+    "extra": {
+        "config": {
+            "type": "library",
+            "name": "用户提现管理",
+            "cover": "iconfont iconfont-sponsor",
+            "description": "用户提现模块，包含：商户配置,提现配置,自动打款,提现记录"
+        },
+        "think": {
+            "services": [
+                "plugin\\transfer\\Service"
+            ]
+        },
+        "plugin": {
+            "copy": {
+                "stc/database": "database/migrations"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "zoujingli/think-install": true
+        }
+    }
+}
