@@ -19,7 +19,7 @@
     },
     "extra": {
         "config": {
-            "type": "library",
+            "type": "plugin",
             "name": "用户提现管理",
             "cover": "iconfont iconfont-sponsor",
             "description": "用户提现模块，包含：商户配置,提现配置,自动打款,提现记录"

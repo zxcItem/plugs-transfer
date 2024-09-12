@@ -49,7 +49,7 @@ class Service extends Plugin
             [
                 'name' => '提现管理',
                 'subs' => [
-                    ['name' => '提现记录管理', 'icon' => 'layui-icon layui-icon-table', 'node' => "{$code}/checkin/index"],
+                    ['name' => '提现记录管理', 'icon' => 'layui-icon layui-icon-table', 'node' => "{$code}/transfer/index"],
                 ],
             ]
         ];
