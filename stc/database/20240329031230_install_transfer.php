@@ -31,7 +31,7 @@ class InstallTransfer extends Migrator
     }
 
     /**
-     * 创建数据对象
+     * 组件-用户-提现
      * @class PluginUserTransfer
      * @table plugin_user_transfer
      * @return void

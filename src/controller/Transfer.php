@@ -1,6 +1,5 @@
 <?php
 
-
 declare (strict_types=1);
 
 namespace plugin\transfer\controller;
@@ -16,7 +15,7 @@ use think\admin\service\AdminService;
 /**
  * 用户提现管理
  * @class Transfer
- * @package plugin\wemall\controller\user
+ * @package plugin\transfer\controller
  */
 class Transfer extends Controller
 {

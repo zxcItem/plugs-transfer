@@ -1,6 +1,5 @@
 <?php
 
-
 declare (strict_types=1);
 
 namespace plugin\transfer\command;
@@ -12,14 +11,12 @@ use think\admin\Exception;
 use think\admin\storage\LocalStorage;
 use think\console\Input;
 use think\console\Output;
-use WePay\Transfers;
-use WePay\TransfersBank;
 use WePayV3\Transfers as TransfersV3;
 
 /**
  * 代理提现处理
  * @class Trans
- * @package app\data\command
+ * @package plugin\transfer\command
  */
 class Trans extends Command
 {
